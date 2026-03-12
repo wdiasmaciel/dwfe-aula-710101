@@ -1,25 +1,59 @@
 * {
+  font-family: "Segoe UI", Arial, sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
+html {
+  /* border: .1rem solid blue; */
+}
+
+body {
+  /* border: .1rem solid purple; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
-  border: 0.1rem solid red;
+  /* border: 0.1rem solid red; */
+  background-color: #252323;
+  color: #ccc;
+  height: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
+  align-items: center;
 }
 
 section {
   border: 0.1rem solid blue;
+  display: flex;
+  flex: 1;
 }
 
 nav {
-    border: .1rem solid orangered;
+  border: 0.1rem solid orangered;
+  padding: .5rem;
 }
 
 main {
-    border: .1rem solid purple;
+  border: 0.1rem solid purple;
+  display: flex;
+  flex: 1;
+  padding: .5rem;
 }
 
 footer {
-    border: .1rem solid green;
+  /* border: 0.1rem solid green; */
+  background-color: #252323;
+  color: #ccc;
+  height: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
+  align-items: center;
 }
